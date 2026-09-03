@@ -401,7 +401,7 @@ CENSUS_WIDTH = {"des_y6": 0.32, "delve_dr3": 0.38, "ps1_dr1": 0.38,
 #
 # Notebook 05 runs the comparison both ways; the choice moves the bright end by
 # ~1.5x and nothing else.
-CENSUS_BRIGHT_ALL_SKY_MV = -8.0
+CENSUS_BRIGHT_ALL_SKY_MV = -10
 
 
 def tan25_luminosity_function(mv, chain, cumulative=True):

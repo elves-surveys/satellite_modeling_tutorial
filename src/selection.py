@@ -395,7 +395,7 @@ ELVES_SURVEY = dict(
 # put side by side.
 MW_SURVEY = dict(
     geometry="mw",
-    aperture=dict(r_max_kpc=400.0),
+    aperture=dict(r_max_kpc=300.0),
     selection=dict(kind="census", width=None, use_sky=True,
                    bright_all_sky_mv=CENSUS_BRIGHT_ALL_SKY_MV),
     requires_mv=True,
