@@ -11,6 +11,15 @@ compared with a real survey.
 Built for the KICP workshop
 ["Probe Combination for Dark Matter Physics in the Era of Large Surveys"](https://indico.uchicago.edu/event/580/overview).
 
+> **This is a toy model demo, not a comprehensive modeling attempt.** Every relation used here
+> — the occupation fraction, the stellar-to-halo mass relation, galaxy size, mass-to-light —
+> is a simple functional form with parameters fixed by hand for transparency and speed, not
+> fit to be a state-of-the-art prediction. The comparisons to ELVES and the Milky Way census in
+> Parts 3–4 are illustrations of a method, not results: every discrepancy they turn up comes
+> with a list of simplifications (no disk, no bulge, a hand-picked SHMR, ...) that could easily
+> explain it before any dark-matter physics does. Don't take the numbers that come out of these
+> notebooks at face value — the point is the forward-modeling chain, not the specific answer.
+
 ## Structure
 
 ```
